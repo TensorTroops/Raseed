@@ -1,64 +1,106 @@
 # Project Raseed
 
-**AI-powered, multimodal personal assistant for comprehensive receipt management and financial intelligence—integrated with Google Wallet.**
-
----
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
-- [Solution Architecture](#solution-architecture)
-- [Roadmap & Future Scope](#roadmap--future-scope)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-## Introduction
-
-- **Physical receipts, gift cards, and insurance papers are difficult to track and frequently underutilized.**
-- Leads to: missed warranty dates, unmonitored expenses, lost value, and lack of actionable financial insight.
-- **Project Raseed** digitizes, extracts, analyzes, and presents all key financial records as actionable, dynamic passes—directly accessible in Google Wallet, with zero manual paperwork.
+**AI-powered multimodal assistant for receipt management, wallet integration, and sustainable spending. Built with Flutter, Python, and Vertex AI Agents on Google Cloud.**
 
 ---
 
 ## Features
 
-- **AI-Powered Multimodal Receipt Ingestion**
-  - Instantly extracts receipt details from photos, videos, or live streams in any language or script.
+### 1. Multimodal Receipt Parsing (`Ingestion Agent`)
+- Upload receipts as **image, document, video, or audio**
+- Uses **Document AI**, **Gemini 2.5**, and **Speech-to-Text**
+- Extracted data is structured as **JSON** and stored in **Firestore**
 
-- **Google Wallet Integration**
-  - Issues dynamic passes for receipts, shopping lists, warranties, and insurance documents—centralized and easily accessible.
+### 2. Entity Classification & Knowledge Graph (`Graph Builder Agent`)
+- Auto-classifies products with **Gemini 2.5 Pro**
+- Constructs entity-relation graphs stored in Firestore
 
-- **Real-time Expense Tracking & Spend Analysis**
-  - Categorizes and visualizes spending, providing insights and personalized savings recommendations.
+### 3. Smart Reminders (`WarranTrack Agent`)
+- Flags warranty and expiration items
+- Schedules **Google Calendar** reminders for returns, insurance, expiry
 
-- **Warranty & Renewal Alerts**
-  - Tracks warranties and insurance coverage; sends timely reminders to avoid missed deadlines.
+### 4. Google Wallet Integration (`Pass Generator Agent`)
+- Generates **Wallet Passes**: summaries, shopping lists, reminders
+- Pushes updates via the **Google Wallet API**
 
-- **Personalized, Localized Queries**
-  - Handles natural-language questions (e.g., "What can I cook with groceries from last week?") and delivers actionable responses as Google Wallet passes.
+### 5. Sustainable Spending (`EcoSpend & SmartShelf Agents`)
+- Detects recurring purchases
+- Suggests eco-friendly, cost-saving alternatives
+- Predicts product shelf life and performs Firestore cleanup
 
-- **Automated Financial Assistant**
-  - Flags recurring subscriptions, suggests cost-saving measures, and provides net worth tracking (with future integrations).
+---
+
+##  Additional Capabilities
+
+- Multilingual & voice-based querying
+- **Google Calendar** integration for automated reminders
+- Spending graph visualizations and insights
+- Suggests nearby recycling/pre-owned stores via **Places API**
+- Modular design with **Vertex AI Agents** for scalable orchestration
 
 ---
 
-## How It Works
+##  Tech Stack
 
-1. **Ingest:**  
-   Upload or stream your physical receipt, card, or document via Raseed’s app or web interface.
+| Layer      | Technology                                                           |
+| ---------- | ---------------------------------------------------------------------|
+| Frontend   | **Flutter**                                                          |
+| Backend    | **Python** (`FastAPI`/`Flask`)                                       |
+| AI/Cloud   | **Vertex AI**, **Gemini 2.5**, **Document AI**, **Firestore**        |
+| API        | **Wallet API**, **Calendar API**, **Google Places API**              |
 
-2. **Extract:**  
-   Gemini-based AI analyzes the media, extracting items, dates, values, and all relevant information.
-
-3. **Analyze:**  
-   Raseed organizes and categorizes data, cross-references warranties, tracks insurance, and analyzes spending.
-
-4. **Act:**  
-   Insights, alerts, and documents are generated as digital passes and pushed to your Google Wallet for real-time, actionable access.
+## Tech Stack 
+<img width="1242" height="701" alt="Screenshot 2025-07-27 120716" src="https://github.com/user-attachments/assets/cefda98a-dcba-4e27-b1f5-45e0fba3f114" />
 
 ---
+
+##  Running the App
+
+## Backend (Python)
+
+cd backend/
+
+pip install -r requirements.txt
+
+python app.py
+
+## Frontend (Flutter)
+
+cd ../frontend/
+
+flutter pub get
+
+flutter run
+
+
+
+---
+
+##  Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/SajeevSenthil?s=300" width="100" alt="Sajeev Senthil" /><br/>
+      <a href="https://github.com/SajeevSenthil"><b>Sajeev Senthil</b></a>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/SivaPrasanthSivaraj?s=300" width="100" alt="Siva Prasanth Sivaraj" /><br/>
+      <a href="https://github.com/SivaPrasanthSivaraj"><b>Siva Prasanth Sivaraj</b></a>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/suganth07?s=300" width="100" alt="Suganth" /><br/>
+      <a href="https://github.com/suganth07"><b>Suganth</b></a>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/abiruth29?s=300" width="100" alt="Abiruth" /><br/>
+      <a href="https://github.com/abiruth29"><b>Abiruth</b></a>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/Charuvarthan?s=300" width="100" alt="Charuvarthan" /><br/>
+      <a href="https://github.com/Charuvarthan"><b>Charuvarthan</b></a>
+    </td>
+  </tr>
+</table>
+
+
