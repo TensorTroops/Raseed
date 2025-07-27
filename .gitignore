@@ -1,0 +1,61 @@
+# Root level gitignore for Raseed project
+
+# Environment files and credentials
+.env
+.env.*
+*.json
+credentials.json
+raseed-*.json
+token.json
+
+# Backend specific
+Backend/__pycache__/
+Backend/*.py[cod]
+Backend/*$py.class
+Backend/venv/
+Backend/env/
+Backend/.Python
+Backend/build/
+Backend/dist/
+Backend/*.egg-info/
+Backend/.installed.cfg
+Backend/*.egg
+Backend/logs/
+Backend/*.log
+
+# Frontend specific
+frontend/.dart_tool/
+frontend/.packages
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/pubspec.lock
+
+# Platform specific builds
+frontend/android/app/build/
+frontend/ios/build/
+frontend/linux/build/
+frontend/macos/build/
+frontend/windows/build/
+frontend/web/build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Node modules (if any)
+node_modules/
