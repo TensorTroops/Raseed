@@ -13,7 +13,7 @@
 
 ### 2. Entity Classification & Knowledge Graph (`Graph Builder Agent`)
 - Auto-classifies products with **Gemini 2.5 Pro**
-- Constructs entity-relation graphs stored in Firestore
+- Constructs entity-relation graphs stored in Firestore.
 
 ### 3. Smart Reminders (`WarranTrack Agent`)
 - Flags warranty and expiration items
