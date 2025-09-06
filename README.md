@@ -98,7 +98,7 @@ flutter run
     </td>
     <td align="center">
       <img src="https://avatars.githubusercontent.com/Charuvarthan?s=300" width="100" alt="Charuvarthan" /><br/>
-      <a href="https://github.com/Charuvarthan"><b>Charuvarthan</b></a>
+      <a href="https://github.com/Charuvarthan-T"><b>Charuvarthan</b></a>
     </td>
   </tr>
 </table>
