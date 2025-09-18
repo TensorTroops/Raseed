@@ -84,9 +84,9 @@ flutter run
       <img src="https://avatars.githubusercontent.com/SajeevSenthil?s=300" width="100" alt="Sajeev Senthil" /><br/>
       <a href="https://github.com/SajeevSenthil"><b>Sajeev Senthil</b></a>
     </td>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/SivaPrasanthSivaraj?s=300" width="100" alt="Siva Prasanth Sivaraj" /><br/>
-      <a href="https://github.com/SivaPrasanthSivaraj"><b>Siva Prasanth Sivaraj</b></a>
+        <td align="center">
+      <img src="https://avatars.githubusercontent.com/Charuvarthan?s=300" width="100" alt="Charuvarthan" /><br/>
+      <a href="https://github.com/Charuvarthan-T"><b>Charuvarthan</b></a>
     </td>
     <td align="center">
       <img src="https://avatars.githubusercontent.com/suganth07?s=300" width="100" alt="Suganth" /><br/>
@@ -97,8 +97,8 @@ flutter run
       <a href="https://github.com/abiruth29"><b>Abiruth</b></a>
     </td>
     <td align="center">
-      <img src="https://avatars.githubusercontent.com/Charuvarthan?s=300" width="100" alt="Charuvarthan" /><br/>
-      <a href="https://github.com/Charuvarthan-T"><b>Charuvarthan</b></a>
+      <img src="https://avatars.githubusercontent.com/SivaPrasanthSivaraj?s=300" width="100" alt="Siva Prasanth Sivaraj" /><br/>
+      <a href="https://github.com/SivaPrasanthSivaraj"><b>Siva Prasanth Sivaraj</b></a>
     </td>
   </tr>
 </table>
