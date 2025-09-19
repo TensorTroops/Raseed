@@ -54,26 +54,6 @@
 
 ---
 
-##  Running the App
-
-## Backend (Python)
-
-cd backend/
-
-pip install -r requirements.txt
-
-python app.py
-
-## Frontend (Flutter)
-
-cd ../frontend/
-
-flutter pub get
-
-flutter run
-
-
-
 ---
 
 ##  Contributors
