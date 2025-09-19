@@ -1,6 +1,6 @@
 # Project Raseed
 
-**AI-powered multimodal assistant for receipt management, wallet integration, and sustainable spending. Built with Flutter, Python, and Vertex AI Agents on Google Cloud.**
+**AI-powered multimodal assistant for receipt management, Google wallet integration, and sustainable spending. Built with Flutter, Python, and Vertex AI Agents on Google Cloud.**
 
 ---
 
@@ -83,9 +83,14 @@
   </tr>
 </table>
 
+---
 
-🏆 Recognition
-Winner of the “Breakthrough Concept" Award
+
+
+# 🏆 Recognition
+
+
+## Winner of the “Breakthrough Concept" Award
 Presented at the Google Agentic AI Day Hackathon for outstanding innovation in agentic AI applications.
 - 🌍 57,000+ developers signed up globally
 - 💡 9,100+ ideas submitted
