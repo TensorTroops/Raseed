@@ -84,3 +84,11 @@
 </table>
 
 
+🏆 Recognition
+Winner of the “Breakthrough Concept" Award
+Presented at the Google Agentic AI Day Hackathon for outstanding innovation in agentic AI applications.
+- 🌍 57,000+ developers signed up globally
+- 💡 9,100+ ideas submitted
+- ✅ Top 700 teams shortlisted — including 650+ professional teams and 50+ student teams
+- 🎯 For our problem statement, we were the only student team to reach the Top 15 finalists
+- 🥇 Honored with the Concept Award for pushing boundaries in multimodal AI and sustainable tech
